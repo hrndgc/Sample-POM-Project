@@ -50,7 +50,7 @@ public class Driver {
         return driver;
     }
 
-    public void closeDriver(){
+    public static void closeDriver(){
         if(driver!=null){
             driver.close();
             driver=null;
